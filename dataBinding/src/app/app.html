@@ -1,1 +1,49 @@
-<h1>hai </h1>
+
+<header>
+    <nav>
+        <a href="">Home</a>
+        <a href="">Servies</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+    </nav>
+</header>
+
+<section class="one" id="home">
+  
+    <img [src]="imageUrl" alt="
+     Image" width="400">
+    <p>{{message}}</p>
+</section>
+
+  <section class="list" id="services">
+    <h2>Services We Offer</h2>
+    <ul>
+      <li>Web Design</li>
+      <li>Content Writing</li>
+      <li>Technical Support</li>
+    </ul>
+  </section>
+
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>Welcome to my personal blog where I share ideas, tutorials, and experiences on web development, technology, and creativity. Whether you're a beginner or a pro, you'll find helpful insights and resources to grow your skills. Stay connected and keep learning!</p>
+
+  </section>
+     
+  <button (click)="clickme()"> button</button>
+
+    <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" >
+      <input type="email" placeholder="Your Email" >
+      <input type="message" placeholder="Your Message">
+     
+      <button type="submit">Send Message</button>
+ 
+    </form>
+  </section>
+
+  <footer>
+    <p> 2025 My Blog. All rights reserved.</p>
+  </footer>
